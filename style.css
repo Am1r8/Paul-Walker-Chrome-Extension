@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    width: 250px;
+    text-align: center;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    
+    text-decoration: none;
+    color: black;
+}
+
+a {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: orange;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    cursor:pointer;
+    font-size:14px;
+    line-height:20px;
+}
+
+#donate {
+    position:absolute;
+    bottom:9px;
+    right:5px;
+    font-family: 'Roboto', sans-serif;
+}
